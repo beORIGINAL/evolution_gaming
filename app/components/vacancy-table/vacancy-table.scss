@@ -1,0 +1,35 @@
+.vacancy {
+    background: linear-gradient(to bottom, #36d4fe 0%, #05a9ff 100%);
+    border: 1px solid #03b5e1;
+    border-radius: 2rem;
+    box-shadow: 0 0.35rem 0.35rem 0 #656565;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 20rem;
+    min-width: 18rem;
+    padding: 0 1.5rem 1.5rem;
+
+    &:not(:last-of-type) {
+        margin-right: 1.5rem;
+    }
+
+    figcaption {
+        flex: 1 0 auto;
+        position: relative;
+
+        h2 {
+            color: #0a6176;
+            line-height: 1.25;
+            margin-bottom: 0.5rem;
+            padding-right: 2rem;
+            text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .btn-danger {
+            position: absolute;
+            right: 0;
+            top: 1rem;
+        }
+    }
+}

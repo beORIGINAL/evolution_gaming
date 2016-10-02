@@ -32,4 +32,4 @@ export default function devConfig (environment) {
             ...commonConfig.plugins
         ]
     };
-};
+}

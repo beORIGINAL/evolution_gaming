@@ -18,4 +18,4 @@ export default function prodConfig (environment) {
             new webpack.optimize.UglifyJsPlugin()
         ]
     };
-};
+}

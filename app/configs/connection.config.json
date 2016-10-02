@@ -1,0 +1,39 @@
+{
+    "host": "wss://js-assignment.evolutiongaming.com/ws_api",
+    "credentials": {
+        "username": "user1234",
+        "password": "password1234"
+    },
+    "participantsMaxAmount": 12,
+    "eventType": {
+        "auth": {
+            "base": "login",
+            "success": "login_successful",
+            "failure": "login_failed",
+            "notAuthorized": "not_authorized"
+        },
+        "serverRespond": {
+            "ping": "ping",
+            "pong": "pong"
+        },
+        "crud": {
+            "subscribe": "subscribe_tables",
+            "unsubscribe": "unsubscribe_tables",
+            "getList": "table_list",
+            "add": {
+                "base": "add_table",
+                "success": "table_added"
+            },
+            "update": {
+                "base": "update_table",
+                "success": "table_updated",
+                "failure": "update_failed"
+            },
+            "remove": {
+                "base": "remove_table",
+                "success": "table_removed",
+                "failure": "removal_failed"
+            }
+        }
+    }
+}
